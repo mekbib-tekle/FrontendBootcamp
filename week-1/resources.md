@@ -1,6 +1,6 @@
 ## 1. zsh
 If you're working on windows, install zsh with WSL/WSL-2
-e.g. https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
+e.g. https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2
 
 
 ## 2. Terminal:
