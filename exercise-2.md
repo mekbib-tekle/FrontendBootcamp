@@ -9,9 +9,9 @@
 
 
 ### 1. PH calculator
-
+```
 	Write a function that takes a ph value and returns whether the value is acidic, neutral or alkaline. (PH value < 7 is acidic, 7 is neutral, > 7 alkaline)
-
+```
 
 ### 2. Discount calculator
 
