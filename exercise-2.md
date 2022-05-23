@@ -47,21 +47,34 @@
 
 	Write a function that calculates the area of a triangle 
 
+### 6. Gauss's Sum
 
-### 6. Calculator
+	Create a program that:
+	Calculates the sum of 1+2+3+4...+98+99
+	Prints the sum of 1+2+3+4...+98+99
+	Output: "The sum is 4950"
 
- 	Write a simple calculator program that calculates the difference, sum or product of two numbers. 
-	The function asks which accept as a parameter, the type of calculation to perform and two numbers. 
-	Then based on the type of calculation given (addition, subtraction, multiplication, division), it performs the calculation and returns the result.
+### 7. Gauss's Odd Sum
+
+	Calculates the sum of 1+3+5+7...+99+101
+	Prints the sum of 1+3+5+7...+99+101
+	Output: "The sum is 2601"
+	(Source: https://github.com/py-study-group/beginner-friendly-programming-exercises/blob/master/exercises.md)
+
+### 8. Calculator
+
+	Write a simple calculator program that calculates the difference, sum or product of two numbers. 
+	The function asks as a parameter, the type of calculation to perform and two numbers. 
+	Then based on the type of calculation given (addition, subtraction, multiplication, division), it performs the calculation and returns the result. 
 
 
-### 7. Max/Min
+### 9. Max/Min
 
 	Write a function that takes three numbers and write two more functions which calculate and return the largest and smallest of these numbers.
 	The first function should print what is returned from the functions largest and smallest.
 	
 
-### 8. Leap year calculator. Write a function that takes a year and determines if it is a leap year or not
+### 10. Leap year calculator. Write a function that takes a year and determines if it is a leap year or not
 
 	How to determine whether a year is a leap year 
 	To determine whether a year is a leap year, follow these steps:
@@ -73,12 +86,12 @@
 	(Source: https://docs.microsoft.com/en-us/office/troubleshoot/excel/determine-a-leap-year)
 
 
-### 9. Sum of working hours
+### 11. Sum of working hours
 	
 	Write a function that takes a parameter array of working hours (e.g. [4, 5, 7.5, 8.5, 9, 6]), the function should return the sum of the working hours.
 
 
-### 10. RNA Transcriber
+### 12. RNA Transcriber
 
 	(The science of this might not be accurate)
 	Write a function that takes DNA strand as a parameter. The four nucleotides found in DNA are adenine (A), cytosine (C), guanine (G) and thymine (T).
@@ -87,10 +100,19 @@
 	(inspired by: 	https://exercism.org/tracks/javascript/exercises/rna-transcription)
 
 
-### 11. Area of a shape 
+### 13. Area of a shape 
 
 	Write a function that takes a shape as a param and returns the area of the shape.
 	Pass shape as an object, e.g. {type: "rectangle", sides: { width: 5, height: 6} }
 	calculate area based on shape.type and shape.sides or the attribute you define. Implement the area calculation for a triangle, circle and a square.
 
+### 14. Stock checker
 
+	Let's write a program that filters out products that are out of stock.
+	Write a function that takes an array of products as a parameter. The product should be an object with name, price, and stockAmount. Add multiple products to the array, with varying stock amount, where some of the products have stock amount 0. Return the total sum of all the items in stock. e.g. if prod-1 has 4 items, prod-2 has 6, prod-3 has 5 => total should be 4+6+5=15
+
+
+
+### 15. Stock checker - 2 
+
+	Use the array of products from the previous exercise. Write a function that returns the products that are available in stock. 
