@@ -151,3 +151,18 @@ returns whether the value is acidic, neutral or alkaline.
 
 	Use the array of products from the previous exercise. 
     Write a function that returns the products that are available in stock. 
+
+### 16. Stock checker - 3 
+
+	Use the array of products from exercise-14. 
+    Write a function that takes the products and a product name.
+		The function then should return true/false if that product name exists
+		in the products array.
+
+### 17. Stock checker - 4 
+
+	Use the array of products from exercise-14. 
+    Write a function that takes the products and a product name.
+		The function then return a product array that doesn't include 
+		the product with the given name. 
+		(The function deletes the given product name if it exists)
