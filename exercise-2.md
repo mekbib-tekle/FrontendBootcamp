@@ -173,4 +173,4 @@ returns whether the value is acidic, neutral or alkaline.
 		(The function deletes the given product name if it exists)
 
 
-### 18. 
+### 18. Stock checker
