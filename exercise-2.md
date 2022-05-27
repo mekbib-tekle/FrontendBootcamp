@@ -1,6 +1,7 @@
 # BASIC PROGRAMMING EXERCISES
 
 // comment to revert
+// change after revert
 
 ### Prerequisites 
 - Data Types (strings, numbers, boolean, arrays)
