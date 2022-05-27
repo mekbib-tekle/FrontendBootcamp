@@ -169,3 +169,6 @@ returns whether the value is acidic, neutral or alkaline.
 		The function then return a product array that doesn't include 
 		the product with the given name. 
 		(The function deletes the given product name if it exists)
+
+
+### 18. 
