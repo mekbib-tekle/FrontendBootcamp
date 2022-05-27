@@ -1,9 +1,5 @@
 # BASIC PROGRAMMING EXERCISES
 
-// comment to revert
-// change after revert
-
-`revert check-3`
 
 ### Prerequisites 
 - Data Types (strings, numbers, boolean, arrays)
@@ -172,5 +168,3 @@ returns whether the value is acidic, neutral or alkaline.
 		the product with the given name. 
 		(The function deletes the given product name if it exists)
 
-
-### 18. Stock checker
