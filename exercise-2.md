@@ -3,8 +3,6 @@
 // comment to revert
 // change after revert
 
-`revert check-3`
-
 ### Prerequisites 
 - Data Types (strings, numbers, boolean, arrays)
 - Objects
