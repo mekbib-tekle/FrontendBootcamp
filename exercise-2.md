@@ -168,3 +168,14 @@ returns whether the value is acidic, neutral or alkaline.
 		the product with the given name. 
 		(The function deletes the given product name if it exists)
 
+
+------------------
+
+### 18. Barcode scanner 
+
+	Write a program that simulates a barcode scanner.
+	
+	Hint: Write a function that returns an array of products.
+	The product object should have the barcode string.
+	Write another function that takes a barcode string and 
+	returns the product that matches the given barcode.
