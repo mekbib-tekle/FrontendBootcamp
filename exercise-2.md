@@ -135,7 +135,7 @@ returns whether the value is acidic, neutral or alkaline.
 
 ### 14. Stock checker
 
-	Let's write a program that filters out products that are out of stock.
+	Let's write a program that manages products in stock.
 	Write a function that takes an array of products as a parameter. 
     The product should be an object with name, price, and stockAmount. 
     Add multiple products to the array, with varying stock amount, 
