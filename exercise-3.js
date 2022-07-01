@@ -106,7 +106,7 @@ const editRecipe = (recipes, oldName, newName) => {
 }
 
 // Task: 11. edit a recipe - make it vegan / make it non-vegan
-const toggleVeganStatus = (recipes, recipe) => {
+const toggleVeganStatus = (recipes, recipeName) => {
 
 }
 
@@ -165,6 +165,7 @@ const main = () => {
 
   // Task: 15.8
   // change "rice bowl" to be vegan
+  recipes = toggleVeganStatus(recipes, "rice bowl");
 
   // Task: 15.9
   // change the quantity of the Ingredient lentil to be 2, in  Lentil Bolognese
@@ -188,7 +189,7 @@ const main = () => {
 
   // Task: 15.13
   // console.log the recipes array
-  // TEST 5: It should print 4 recipes
+  // TEST 5: It should print an array of 4 recipes that matches expectedRecipesArray defined below
 }
 
 
