@@ -61,33 +61,20 @@ const deleteRecipe = (recipes, recipeName) => {
   return updatedList;
 }
 
-// Task: 3. add an ingredient to a recipe
-const addIngredient = (recipes, recipeName, ingredient) => {
-  // add the ingredient to the recipe that matches the recipename
-  // return updatedList;
-}
+// Task: 3. get only vegan recipes
 
-// Task: 4. delete an ingredient from a recipe, 
-const deleteIngredient = (recipes, recipeName, ingredientName) => {
-  // delete the ingredient of the recipe that matches the recipename
-  // return updatedList;
-}
-
-// Task: 5. get the names of the ingredients of a recipe
-const getIngredients = (recipes, recipe) => {
+// Task: 4. get the names of the ingredients of a recipe
+const getIngredientNames = (recipes, recipe) => {
 
 }
 
-// Task: 6. get only vegan recipes
-
-
-// Task: 7. add a recipe to favorites
+// Task: 5. add a recipe to favorites
 const addToFavorites = (favorites, recipe) => {
   // .....
   return favorites;
 }
 
-// Task: 8. remove a recipe from favorites
+// Task: 6. remove a recipe from favorites
 const removeFavorite = (favorites, recipeName) => {
   //....
   // use filter
@@ -95,9 +82,9 @@ const removeFavorite = (favorites, recipeName) => {
   return updatedFavorites;
 }
 
-// Task: 9. get the list of names of the items in favorites
+// Task: 7. get the list of names of the items in favorites
 
-// Task: 10. edit a recipe - change the name
+// Task: 8. edit a recipe - change the name
 const editRecipe = (recipes, oldName, newName) => {
   // find the recipe by oldName
   // change the name to newName
@@ -105,20 +92,33 @@ const editRecipe = (recipes, oldName, newName) => {
   // map each recipe to itself. If the name matches, map it to a new object with newName
 }
 
-// Task: 11. edit a recipe - make it vegan / make it non-vegan
+// Task: 9. edit a recipe - make it vegan / make it non-vegan
 const toggleVeganStatus = (recipes, recipeName) => {
 
 }
 
-// Task: 12. get one recipe by name - return the recipe that matches the exact name of the recipe
+// Task: 10. get one recipe by name - return the recipe that matches the exact name of the recipe
 const searchByRecipeName = (recipes, recipeName) => {
   // use filter
 }
 
-// Task: 13. search by ingredient name - return all recipes that contain a given ingredient name
+// Task: 11. search by ingredient name - return all recipes that contain a given ingredient name
 const searchByIngredientName = (recipes, ingredientName) => {
   // use filter and again filter through the ingredients
 }
+
+// Task: 12. add an ingredient to a recipe
+const addIngredient = (recipes, recipeName, ingredient) => {
+  // add the ingredient to the recipe that matches the recipename
+  // return updatedList;
+}
+
+// Task: 13. delete an ingredient from a recipe, 
+const deleteIngredient = (recipes, recipeName, ingredientName) => {
+  // delete the ingredient of the recipe that matches the recipename
+  // return updatedList;
+}
+
 
 // Task: 14. edit a recipe - change the quantity of an ingredient
 const editIngredientQuantity = (recipes, recipeName, ingredientName, newQuantity) => {
