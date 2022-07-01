@@ -69,7 +69,7 @@ const addIngredient = (recipes, recipeName, ingredient) => {
 
 // Task: 4. delete an ingredient from a recipe, 
 const deleteIngredient = (recipes, recipeName, ingredientName) => {
-  // delete the ingredient to the recipe that matches the recipename
+  // delete the ingredient of the recipe that matches the recipename
   // return updatedList;
 }
 
@@ -121,8 +121,11 @@ const searchByIngredientName = (recipes, ingredientName) => {
 }
 
 // Task: 14. edit a recipe - change the quantity of an ingredient
-const editIngredientQuantity = (recipes, recipe, ingredient, newQuantity) => {
-  // 
+const editIngredientQuantity = (recipes, recipeName, ingredientName, newQuantity) => {
+  // find the recipe by name
+  // update the ingredients of the recipe you found to have newQuantity
+  // use map to map each recipe to itself, but if the name matches the recipeName, update the ingredients
+  // return the updated recipes array 
 }
 
 // Task: 15. Execute the functions you implemented above as required below
