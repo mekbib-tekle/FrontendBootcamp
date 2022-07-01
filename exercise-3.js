@@ -1,3 +1,8 @@
+// Prerequisites:
+// - functions, objects, conditionals
+// - arrow functions
+// - array functions map, filter, find..
+
 function getRecipes() {
   return [{
     name: "salmon soup",
@@ -41,44 +46,97 @@ function getRecipes() {
   }];
 }
 
-// 1. Add a new recipe
+// Implement functions that perform the following tasks
 
-// 2. delete a recipe that matches a given name
+// Task: 1. Add a new recipe
+const addRecipe = (recipes, recipe) => {
+  // check if recipe has name and vegan status
+  // add recipe to recipes
+  // return recipes array
+}
 
-// 3. add an ingredient to a recipe
+// Task: 2. delete a recipe that matches a given name
+const deleteRecipe = (recipes, recipeName) => {
+  // ....
+  return updatedList;
+}
 
-// 4. delete an ingredient from a recipe
+// Task: 3. add an ingredient to a recipe
+const addIngredient = (recipes, recipeName, ingredient) => {
+  // add the ingredient to the recipe that matches the recipename
+  // return updatedList;
+}
 
-// 5. get the names of the ingredients of a recipe
+// Task: 4. delete an ingredient from a recipe, 
+const deleteIngredient = (recipes, recipeName, ingredientName) => {
+  // delete the ingredient to the recipe that matches the recipename
+  // return updatedList;
+}
 
-// 6. get only vegan recipes
+// Task: 5. get the names of the ingredients of a recipe
+const getIngredients = (recipes, recipe) => {
 
-// 7. add a recipe to favorites
+}
 
-// 8. remove a recipe from favorites
+// Task: 6. get only vegan recipes
 
-// 9. get the list of names of the items in favorites
 
-// 10. edit a recipe - change the name
+// Task: 7. add a recipe to favorites
+const addToFavorites = (favorites, recipe) => {
+  // .....
+  return favorites;
+}
 
-// 11. edit a recipe - make it vegan / make it non-vegan
+// Task: 8. remove a recipe from favorites
+const removeFavorite = (favorites, recipeName) => {
+  //....
+  // use filter
+  //
+  return updatedFavorites;
+}
 
-// 12. edit a recipe - change the quantity of an ingredient
+// Task: 9. get the list of names of the items in favorites
 
-// 13. search by ingredient name - return all recipes that contain a given ingredient name
+// Task: 10. edit a recipe - change the name
+const editRecipe = (recipes, oldName, newName) => {
+  // find the recipe by oldName
+  // change the name to newName
+  // this can be done by map
+  // map each recipe to itself. If the name matches, map it to a new object with newName
+}
 
-// 14. get one recipe by name - return the recipe that matches the exact name of the recipe
+// Task: 11. edit a recipe - make it vegan / make it non-vegan
+const toggleVeganStatus = (recipes, recipe) => {
 
-// 15. Execute the functions you implemented above as required below
+}
+
+// Task: 12. get one recipe by name - return the recipe that matches the exact name of the recipe
+const searchByRecipeName = (recipes, recipeName) => {
+  // use filter
+}
+
+// Task: 13. search by ingredient name - return all recipes that contain a given ingredient name
+const searchByIngredientName = (recipes, ingredientName) => {
+  // use filter and again filter through the ingredients
+}
+
+// Task: 14. edit a recipe - change the quantity of an ingredient
+const editIngredientQuantity = (recipes, recipe, ingredient, newQuantity) => {
+  // 
+}
+
+// Task: 15. Execute the functions you implemented above as required below
 const main = () => {
-  const recipes = getRecipes();
+  let recipes = getRecipes();
   
-  const favorites = [];
+  let favorites = [];
 
   // Task: 15.1
   // Add the following recipes to the recipes array using the function from Task-1
   //    Lentil Bolognese, vegan, & Ingredients: 1 lentil; 3 tomatoes; 1 pasta; 1 onion
   //    Ozzo Chicken, non-vegan, & Ingredients: 1 spinach; 1 chicken; 1 sour cream
+  const lentilBolognese = { }; // fill in the attributes
+  recipes = addRecipe(lentilBolognese); // add ozzo chicken in a similar way
 
   // Task: 15.2
   // Delete the recipe named "carbonara" using the function from Task-2
@@ -94,7 +152,8 @@ const main = () => {
   // Get the recipe by the name "Ozzo Chicken" and Add it to favorites
   // Get the recipe by the name "salmon soup" and Add it to favorites
   // Get the recipe by the name "Lentil Bolognese" and Add it to favorites
-  
+  favorites = addToFavorites(lentilBolognese);
+
   // Task: 15.6
   // Delete the recipe "Lentil Bolognese" from the favorites
 
