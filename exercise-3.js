@@ -139,7 +139,7 @@ const main = () => {
   //    Lentil Bolognese, vegan, & Ingredients: 1 lentil; 3 tomatoes; 1 pasta; 1 onion
   //    Ozzo Chicken, non-vegan, & Ingredients: 1 spinach; 1 chicken; 1 sour cream
   const lentilBolognese = { }; // fill in the attributes
-  recipes = addRecipe(lentilBolognese); // add ozzo chicken in a similar way
+  recipes = addRecipe(recipes, lentilBolognese); // add ozzo chicken in a similar way
 
   // Task: 15.2
   // Delete the recipe named "carbonara" using the function from Task-2
