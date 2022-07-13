@@ -1,6 +1,5 @@
 # BASIC PROGRAMMING EXERCISES
 
-// comment to revert
 
 ### Prerequisites 
 - Data Types (strings, numbers, boolean, arrays)
@@ -136,7 +135,7 @@ returns whether the value is acidic, neutral or alkaline.
 
 ### 14. Stock checker
 
-	Let's write a program that filters out products that are out of stock.
+	Let's write a program that manages products in stock.
 	Write a function that takes an array of products as a parameter. 
     The product should be an object with name, price, and stockAmount. 
     Add multiple products to the array, with varying stock amount, 
@@ -168,3 +167,15 @@ returns whether the value is acidic, neutral or alkaline.
 		The function then return a product array that doesn't include 
 		the product with the given name. 
 		(The function deletes the given product name if it exists)
+
+
+------------------
+
+### 18. Barcode scanner 
+
+	Write a program that simulates a barcode scanner.
+	
+	Hint: Write a function that returns an array of products.
+	The product object should have the barcode string.
+	Write another function that takes a barcode string and 
+	returns the product that matches the given barcode.
