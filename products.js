@@ -33,13 +33,13 @@ const favorites = [];
 
 // Task 6. Get how many "Pro" products you have, 
 
-// Task 7. Return an array that has either iOS or Android for each product based on the name
+// Task 7. Print an array that has either iOS or Android for each product based on the name
 // e.g. if the product has iphone in the name, it should be iOS; otherwise it should be android
 // the resulting array could be ["iOS", "iOS", "iOS", "Android", "Android", "Android", "Android"...]
 
-// Task 8. Return the count of words for each product. Numbers could be regarded as words
+// Task 8. Print an array with the count of words for each product. Numbers could be regarded as words
 // the resulting array could look sth like this [2, 3, 4, 2, 2, 3, 3, 2, 2, 3, 3, 3, 2, 2...]
 
-// Task 9. Return only the products that end with "Pro"
+// Task 9. Print only the products that end with "Pro"
 
-// Task 10. Return the products that are NOT in the favorites array
+// Task 10. Print the products that are NOT in the favorites array
