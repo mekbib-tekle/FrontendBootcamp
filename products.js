@@ -31,7 +31,7 @@ const favorites = [];
 
 // Task 5. remove OnePlus 10 Pro from favorites
 
-// Task 6. Get how many "Pro" products you have, 
+// Task 6. Calculate and print the number of products that have "Pro" in their names
 
 // Task 7. Print an array that has either iOS or Android for each product based on the name
 // e.g. if the product has iphone in the name, it should be iOS; otherwise it should be android
