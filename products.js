@@ -1,7 +1,7 @@
 // Prerequisites:
 // - functions, objects, conditionals
 // - arrow functions
-// - array functions map, filter, find..
+// - array functions: map, filter, find, reduce, every, some..
 
 const products = [
   "iPhone 13", 
