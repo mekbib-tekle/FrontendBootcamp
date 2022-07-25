@@ -32,6 +32,7 @@ const favorites = [];
 // Task 5. remove OnePlus 10 Pro from favorites
 
 // Task 6. Calculate and print the number of products that have "Pro" in their names
+// Try to implement this in two ways. 1. using reduce 2. using filter and length
 
 // Task 7. Print an array that has either iOS or Android for each product based on the name
 // e.g. if the product has iphone in the name, it should be iOS; otherwise it should be android
@@ -43,3 +44,12 @@ const favorites = [];
 // Task 9. Print only the products that end with "Pro"
 
 // Task 10. Print the products that are NOT in the favorites array
+
+// Task 11. Check if all the items in favorites are iPhones (have "iPhone" in the name). Print the boolean output.
+
+// Task 12. Check if any of the items in favorites contain the number 12 or 13. Print the boolean output.
+
+// hint: 
+// 1. push,  2. filter,  3. filter,  4. push,  5. filter,  6. reduce/filter-length
+// 7. map,   8. map,     9. filter + string method to check string ending 
+// 10. find in filter,   11. every,   12. some
