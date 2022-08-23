@@ -50,6 +50,6 @@ const favorites = [];
 // Task 12. Check if any of the items in favorites contain the number 12 or 13. Print the boolean output.
 
 // hint: 
-// 1. push,  2. filter,  3. filter,  4. push,  5. filter,  6. reduce/filter-length
-// 7. map,   8. map,     9. filter + string method to check string ending 
-// 10. find in filter,   11. every,   12. some
+// 1. push,  2. filter,       3. filter,  4. push,  5. filter,  6. reduce/filter-length
+// 7. map,   8. map + split,  9. filter + string method to check string ending 
+// 10. find in filter,        11. every,   12. some
