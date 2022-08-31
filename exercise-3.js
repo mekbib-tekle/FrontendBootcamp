@@ -64,7 +64,7 @@ const deleteRecipe = (recipes, recipeName) => {
 // Task: 3. get only vegan recipes
 
 // Task: 4. get the names of the ingredients of a recipe
-const getIngredientNames = (recipes, recipe) => {
+const getIngredientNames = (recipes, recipeName) => {
 
 }
 
