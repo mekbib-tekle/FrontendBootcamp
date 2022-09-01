@@ -86,8 +86,6 @@ const removeFavorite = (favorites, recipeName) => {
 
 // Task: 8. edit a recipe - change the name
 const editRecipe = (recipes, oldName, newName) => {
-  // find the recipe by oldName
-  // change the name to newName
   // this can be done by map
   // map each recipe to itself. If the name matches, map it to a new object with newName
 }
