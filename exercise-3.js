@@ -82,7 +82,7 @@ const removeFavorite = (favorites, recipeName) => {
   return updatedFavorites;
 }
 
-// Task: 7. get the list of names of the items in favorites
+// Task: 7. get the list of names of the recipes in favorites
 
 // Task: 8. edit a recipe - change the name
 const editRecipe = (recipes, oldName, newName) => {
