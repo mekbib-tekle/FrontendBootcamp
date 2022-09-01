@@ -153,7 +153,7 @@ const main = () => {
   // Get the recipe by the name "Ozzo Chicken" and Add it to favorites
   // Get the recipe by the name "salmon soup" and Add it to favorites
   // Get the recipe by the name "Lentil Bolognese" and Add it to favorites
-  favorites = addToFavorites(lentilBolognese);
+  favorites = addToFavorites(favorites, lentilBolognese);
 
   // Task: 15.6
   // Delete the recipe "Lentil Bolognese" from the favorites
