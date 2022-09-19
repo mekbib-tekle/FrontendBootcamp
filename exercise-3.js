@@ -97,7 +97,7 @@ const toggleVeganStatus = (recipes, recipeName) => {
 
 // Task: 10. get one recipe by name - return the recipe that matches the exact name of the recipe
 const searchByRecipeName = (recipes, recipeName) => {
-  // use filter
+  // use find
 }
 
 // Task: 11. search by ingredient name - return all recipes that contain a given ingredient name
