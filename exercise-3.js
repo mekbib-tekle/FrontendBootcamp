@@ -150,9 +150,9 @@ const main = () => {
   // Delete ingredient named "water" from the recipe "rice bowl"
 
   // Task: 15.5
-  // Get the recipe by the name "Ozzo Chicken" and Add it to favorites
   // Get the recipe by the name "salmon soup" and Add it to favorites
-  // Get the recipe by the name "Lentil Bolognese" and Add it to favorites
+  // Add the recipe "Ozzo Chicken" to favorites
+  // Add the recipe "Lentil Bolognese" to favorites
   favorites = addToFavorites(favorites, lentilBolognese);
 
   // Task: 15.6
