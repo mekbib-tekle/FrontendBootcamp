@@ -162,8 +162,8 @@ const main = () => {
   // Change the name of the recipe "rice bowl" to "Japanese Rice Bowl"
 
   // Task: 15.8
-  // change "rice bowl" to be vegan
-  recipes = toggleVeganStatus(recipes, "rice bowl");
+  // change "Japanese Rice Bowl" to be vegan
+  recipes = toggleVeganStatus(recipes, "Japanese Rice Bowl");
 
   // Task: 15.9
   // change the quantity of the Ingredient lentil to be 2, in  Lentil Bolognese
