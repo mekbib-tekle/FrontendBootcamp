@@ -175,7 +175,7 @@ const main = () => {
 
   // Task: 15.11
   // console.log all the vegan recipes
-  // TEST 2: It should print the recipe Japanese Rice Bowl
+  // TEST 2: It should print the recipe Japanese Rice Bowl and Lentil Bolognese
 
   // Task: 15.12
   // console.log all the recipes that contain the ingredient "lentil"
