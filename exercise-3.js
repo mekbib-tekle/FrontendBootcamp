@@ -169,7 +169,7 @@ const main = () => {
   // change the quantity of the Ingredient lentil to be 2, in  Lentil Bolognese
 
   // Task: 15.10
-  // call the function you implemented on task-5 to get the list of ingredients of "salmon soup"
+  // call the function you implemented on task-4 to get the list of ingredients of "salmon soup"
   // console.log these Ingredients
   // TEST 1: it should print these ingredients: salmon, cream, milk, garlic
 
