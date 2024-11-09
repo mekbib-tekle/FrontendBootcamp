@@ -3,6 +3,7 @@ If you're working on windows, install zsh with WSL/WSL-2
 - first setup WSL on Windows: https://learn.microsoft.com/en-us/windows/wsl/install
 - https://dev.to/vsalbuq/how-to-install-oh-my-zsh-on-windows-10-home-edition-49g2
 
+Mac: https://ohmyz.sh/
 
 ## 2. Terminal:
 
